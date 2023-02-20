@@ -1,9 +1,10 @@
-a = 10
-b = 8.4
-c = "No"
-d = a*3.5
-b =  b - 1 
-e = "Yes"
-f = "_"
-c = c*2 + f + e *3
-print(a , b ,  c , d , a/b ,d/b )
+print("Введите зарплату и расходы за месяц")
+a , b = int(input()) , int(input())
+if a>b:
+    print("Ее вы в плюссе")
+elif a<b:
+    print("Надеюсь вы хорошо потратили деньги")
+elif a>(b+40000):
+    print("О вы можете купить себе RTX3090")
+else:
+    print("Сочувствую")
