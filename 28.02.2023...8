@@ -1,0 +1,27 @@
+a = int(input())
+f = int(input())
+if 999<a and a<10000:
+    b = a //1000
+    c = a //100%10
+    d = a &100//10
+    e = a % 10
+    #1
+    if b+c==d+e:
+        print("Да равна")
+    else:
+        print("Нет не равна")
+    #2
+    if (b+c+e+d)%3==0:
+        print("Да кратна")
+    else:
+        print("Нет не кратна")
+    #3
+    if (b*c*e*d)%4==0:
+        print("Да кратна")
+    else:
+        print("Нет не кратна")
+    #4
+    if (b*c*e*d)%f==0:
+        print("Да кратна")
+    else:
+        print("Нет не кратна")
