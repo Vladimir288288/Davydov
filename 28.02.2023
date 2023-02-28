@@ -1,0 +1,30 @@
+a = int(input())
+b = a//100
+c = a//10%10
+d = a%10
+e = int(input())
+#1
+if 9<(b+c+d) and (b+c+d)<100:
+    print("Да является")
+else:
+    print("Не является")
+#2
+if 99<(b*c*d) and (b*c*d)<1000:
+    print("Да является")
+else:
+    print("Не является")
+#3
+if e <(b*c*d):
+    print("Да больше")
+else:
+    print("Нет не больше")
+#4
+if (b+c+d)%5==0:
+    print("Да кратна пяти")
+else:
+    print("Нет не кратна")
+#5
+if (b+c+d)%e==0:
+    print("Да кратна")
+else:
+    print("Не кратна")
