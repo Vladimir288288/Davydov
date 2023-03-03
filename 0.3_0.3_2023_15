@@ -1,0 +1,6 @@
+print("Введите число жителей и площадь гос-ва в км")
+a,b,c=int(input()),int(input()),int(input())
+s = 2*(a*b + b*c + c*a)
+v = a*b*c 
+print(s)
+print(v)
