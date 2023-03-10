@@ -1,0 +1,7 @@
+a = int(input())
+from math import *
+b = pi/4
+if a <= b:
+    print(sin(a))
+elif a > b:
+    print(cos(a))
