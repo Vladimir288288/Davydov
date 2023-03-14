@@ -1,0 +1,10 @@
+print("Нарисуёте треугольник и введите его: гипотинузу , прилейжаший катет , противоположный катет")
+amongus = int(input())
+no = int(input())
+impostor = int(input())
+a = int(input())
+b = 3.14/4
+if a <= b:
+    print(impostor/amongus * a)
+elif a > b:
+    print( no/amongus * a)
